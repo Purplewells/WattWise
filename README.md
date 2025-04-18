@@ -119,12 +119,21 @@ By 2027, **WattWise** aims to:
 
 ---
 
+### Overview of System Architectural Diagram
+
+![image](https://github.com/user-attachments/assets/f45b6a21-fa00-4ebd-b772-b6824a0c94f9)
+The content of the Archi Diagram shows
+- Smart meter or IoT device
+- Communication layer (GSM/NB-IoT)
+- Backend server & database
+- Mobile app/web dashboard
+- Payment API integrations
+- Notification services
+
 ## 📩 Let's Talk
 
 We seek impact investors, energy innovators, and smart city partners to help bring WattWise to life.
 
 Join us in building Ghana’s smart grid future — one meter at a time.
+
 Project Details & Design ( Refer to Wiki )
-
-![image](https://github.com/user-attachments/assets/f45b6a21-fa00-4ebd-b772-b6824a0c94f9)
-
