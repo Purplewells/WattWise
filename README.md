@@ -121,7 +121,10 @@ By 2027, **WattWise** aims to:
 
 ## 📩 Let's Talk
 
-We are actively seeking impact investors, energy innovators, and smart city partners to help bring WattWise to life.
+We seek impact investors, energy innovators, and smart city partners to help bring WattWise to life.
 
 Join us in building Ghana’s smart grid future — one meter at a time.
 Project Details & Design ( Refer to Wiki )
+
+![image](https://github.com/user-attachments/assets/f45b6a21-fa00-4ebd-b772-b6824a0c94f9)
+
