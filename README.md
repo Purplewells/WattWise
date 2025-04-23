@@ -1,4 +1,6 @@
-# ⚡ WattWise – Smart Electricity for Smarter Communities
+# Project Name :  WattWise
+
+## Project Description :   Smart Electricity for Smarter Communities
 
 ## 📌 Problem Overview
 
@@ -17,13 +19,9 @@ These issues lead to:
 - Utility revenue loss  
 - Poor customer satisfaction  
 
----
-
 ## 💡 Proposed Solution – WattWise
 
 **WattWise** is a **smart electricity management solution** combining **IoT-enabled prepaid meters**, a **mobile app**, and a **cloud-based analytics dashboard** to give households, landlords, and utility providers real-time control and insight over electricity usage.
-
----
 
 ## 🎯 Key Features
 
@@ -48,14 +46,10 @@ These issues lead to:
 - View revenue reports and consumer insights.
 - Manage meter inventory and installations.
 
----
-
 ## 📱 User Experience
 
 - **Tenants/Homeowners**: Install the app, pair the smart meter, monitor usage, and top up from anywhere.
 - **Utility Providers/Landlords**: Receive insights, control meter status remotely, prevent revenue leakage.
-
----
 
 ## 🧪 Pilot Scope
 
@@ -64,8 +58,6 @@ These issues lead to:
 - **Cloud backend** on AWS or Firebase
 - **Target Area**: Accra/Tema (urban) or Sunyani (semi-urban)
 - **Timeframe**: 3 months
-
----
 
 ## 💰 Estimated Budget
 
