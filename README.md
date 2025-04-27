@@ -121,3 +121,20 @@ We seek impact investors, energy innovators, and smart city partners to help bri
 Join us in building Ghana’s smart grid future — one meter at a time.
 
 Project Details & Design ( Refer to Wiki )
+
+---
+public class Meter
+{
+    public int MeterId { get; set; } // Unique identifier
+    public string SerialNumber { get; set; } // Serial number of the meter
+    public string MeterType { get; set; } // Type of meter (e.g., Electric, Gas, Water)
+    public DateTime InstallationDate { get; set; } // Date of installation
+    public string Status { get; set; } // Status (e.g., Active, Inactive, Maintenance)
+    public int CustomerId { get; set; } // Associated Customer ID
+
+    // Extended attributes
+    public bool IsSmartMeter { get; set; } // Indicates if the meter is IoT-enabled
+    public string CommunicationMethod { get; set; } // e.g., GSM, NB-IoT, Wi-Fi
+    public string Location { get; set; } // Physical location of the meter
+    public List<UsageHistory> UsageHistories { get; set; } // List of usage history records
+}
