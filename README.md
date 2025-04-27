@@ -81,16 +81,12 @@ These issues lead to:
 - Begin onboarding early users and landlords  
 - Engage ECG and housing communities for partnerships  
 
----
-
 ## 💼 Business Model
 
 1. **Device Sales** – Smart meters at cost + margin  
 2. **SaaS Subscription** – Monthly per-meter fee for dashboard access & analytics  
 3. **Mobile Money Commission** – Fee per top-up via app  
 4. **Custom API Access** – For housing agencies & prepaid landlords  
-
----
 
 ## 📈 Vision & Scale
 
@@ -100,16 +96,12 @@ By 2027, **WattWise** aims to:
 - Save consumers **30% in electricity waste**  
 - Improve prepaid electricity reliability for **2 million+ people**  
 
----
-
 ## 👥 Team
 
 - **Founder/Engineer**: Benjamin Ohene-Adu – Embedded systems & IoT dev  
 - **Advisor**: Energy sector expert from [ECG/PUC/etc.]  
 - **UX Designer**: Freelance React Native specialist  
 - **Community Coordinator**: Local rep for onboarding  
-
----
 
 ### Overview of System Architectural Diagram
 
