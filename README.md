@@ -123,6 +123,7 @@ Join us in building Ghana’s smart grid future — one meter at a time.
 Project Details & Design ( Refer to Wiki )
 
 ---
+'' '
 public class Meter
 {
     public int MeterId { get; set; } // Unique identifier
@@ -138,3 +139,4 @@ public class Meter
     public string Location { get; set; } // Physical location of the meter
     public List<UsageHistory> UsageHistories { get; set; } // List of usage history records
 }
+'''
