@@ -1,0 +1,43 @@
+﻿@model IEnumerable<WattWise.CQRS.DTOs.MeterDto>
+
+@{
+    ViewData["Title"] = "List of Client Meters";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>Below is a quick view of meters:</p>
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th>Serial</th>
+                    <th>Description</th>
+                    <th>Location</th>
+                    <th>Current</th>
+                    <th>Balance</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var m in Model.Take(20))
+                {
+                    <tr>
+                        <td>@m.SerialNumber</td>
+                        <td>@m.Description</td>
+                        <td>@m.Location</td>
+                        <td>@m.CurrentReading</td>
+                        <td>@m.CurrentBalance</td>
+                        <td><a asp-controller="Meters" asp-action="Details" asp-route-id="@m.MeterId">Details</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No meters available.</p>
+    }
+</div>

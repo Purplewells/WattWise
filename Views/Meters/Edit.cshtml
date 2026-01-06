@@ -1,0 +1,129 @@
+﻿@model WattWise.Models.Meter
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Meter</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="MeterId" />
+            <div class="form-group">
+                <label asp-for="SerialNumber" class="control-label"></label>
+                <input asp-for="SerialNumber" class="form-control" />
+                <span asp-validation-for="SerialNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Location" class="control-label"></label>
+                <input asp-for="Location" class="form-control" />
+                <span asp-validation-for="Location" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Latitude" class="control-label"></label>
+                <input asp-for="Latitude" class="form-control" />
+                <span asp-validation-for="Latitude" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Longitude" class="control-label"></label>
+                <input asp-for="Longitude" class="form-control" />
+                <span asp-validation-for="Longitude" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InstallationDate" class="control-label"></label>
+                <input asp-for="InstallationDate" class="form-control" />
+                <span asp-validation-for="InstallationDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastMaintenanceDate" class="control-label"></label>
+                <input asp-for="LastMaintenanceDate" class="form-control" />
+                <span asp-validation-for="LastMaintenanceDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CurrentReading" class="control-label"></label>
+                <input asp-for="CurrentReading" class="form-control" />
+                <span asp-validation-for="CurrentReading" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PreviousReading" class="control-label"></label>
+                <input asp-for="PreviousReading" class="form-control" />
+                <span asp-validation-for="PreviousReading" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreditLimit" class="control-label"></label>
+                <input asp-for="CreditLimit" class="form-control" />
+                <span asp-validation-for="CreditLimit" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TarriffRate" class="control-label"></label>
+                <input asp-for="TarriffRate" class="form-control" />
+                <span asp-validation-for="TarriffRate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CurrentBalance" class="control-label"></label>
+                <input asp-for="CurrentBalance" class="form-control" />
+                <span asp-validation-for="CurrentBalance" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Manufacturer" class="control-label"></label>
+                <input asp-for="Manufacturer" class="form-control" />
+                <span asp-validation-for="Manufacturer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Model" class="control-label"></label>
+                <input asp-for="Model" class="form-control" />
+                <span asp-validation-for="Model" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FirmwareVersion" class="control-label"></label>
+                <input asp-for="FirmwareVersion" class="form-control" />
+                <span asp-validation-for="FirmwareVersion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HardwareVersion" class="control-label"></label>
+                <input asp-for="HardwareVersion" class="form-control" />
+                <span asp-validation-for="HardwareVersion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserId" class="control-label"></label>
+                <input asp-for="UserId" class="form-control" />
+                <span asp-validation-for="UserId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TamperStatusID" class="control-label"></label>
+                <select asp-for="TamperStatusID" class="form-control" asp-items="ViewBag.TamperStatusID"></select>
+                <span asp-validation-for="TamperStatusID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MeterTypeID" class="control-label"></label>
+                <select asp-for="MeterTypeID" class="form-control" asp-items="ViewBag.MeterTypeID"></select>
+                <span asp-validation-for="MeterTypeID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MeterStatusID" class="control-label"></label>
+                <select asp-for="MeterStatusID" class="form-control" asp-items="ViewBag.MeterStatusID"></select>
+                <span asp-validation-for="MeterStatusID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
