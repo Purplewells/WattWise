@@ -1,0 +1,60 @@
+﻿@model IEnumerable<WattWise.CQRS.DTOs.MeterDto>
+
+@{
+    ViewData["Title"] = "Meters";
+}
+
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <h5 class="mb-0">Meters</h5>
+            <a class="btn btn-primary btn-sm" asp-action="Create">Create New</a>
+        </div>
+        <div class="card-body">
+            <table class="table table-striped table-hover">
+                <thead class="table-light">
+                    <tr>
+                        <th>Serial Number</th>
+                        <th>Description</th>
+                        <th>Location</th>
+                        <th>Owner</th>
+                        <th>Status</th>
+                        <th>Current Reading</th>
+                        <th>Last Reading</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.SerialNumber</td>
+                            <td>@item.Description</td>
+                            <td>@item.Location</td>
+                            <td>@(item.OwnerName ?? "")</td>
+                            <td>@(item.MeterStatusName ?? "")</td>
+                            <td>
+                                <div class="d-flex align-items-center">
+                                    <div class="me-2 fw-bold">@item.CurrentReading</div>
+                                    <div class="flex-grow-1">
+                                        <div class="progress" style="height:8px;">
+                                            <div class="progress-bar bg-success" role="progressbar"
+                                                style="width:@(Math.Min(100, (int)(item.CurrentReading / 10.0)))%"
+                                                aria-valuenow="@item.CurrentReading" aria-valuemin="0" aria-valuemax="1000">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>@(item.LastReadingAt?.ToString("g") ?? "")</td>
+                            <td>
+                                <a class="btn btn-sm btn-outline-secondary" asp-action="Details"
+                                    asp-route-id="@item.MeterId">Details</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

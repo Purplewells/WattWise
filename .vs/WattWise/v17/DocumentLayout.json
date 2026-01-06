@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\adub\\source\\repos\\personal\\WattWise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{943EE047-A19F-44F1-9A8A-526B223E1E3E}|WattWise.csproj|c:\\users\\adub\\source\\repos\\personal\\wattwise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{943EE047-A19F-44F1-9A8A-526B223E1E3E}|WattWise.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2A1EC2D-6A55-434F-A054-DBC32DC902F3}|WattWise.csproj|c:\\users\\adub\\source\\repos\\personal\\wattwise\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A1EC2D-6A55-434F-A054-DBC32DC902F3}|WattWise.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A1EC2D-6A55-434F-A054-DBC32DC902F3}|WattWise.csproj|c:\\users\\adub\\source\\repos\\personal\\wattwise\\controllers\\meterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A1EC2D-6A55-434F-A054-DBC32DC902F3}|WattWise.csproj|solutionrelative:controllers\\meterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A1EC2D-6A55-434F-A054-DBC32DC902F3}|WattWise.csproj|c:\\users\\adub\\source\\repos\\personal\\wattwise\\models\\meter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A1EC2D-6A55-434F-A054-DBC32DC902F3}|WattWise.csproj|solutionrelative:models\\meter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A1EC2D-6A55-434F-A054-DBC32DC902F3}|WattWise.csproj|c:\\users\\adub\\source\\repos\\personal\\wattwise\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A1EC2D-6A55-434F-A054-DBC32DC902F3}|WattWise.csproj|solutionrelative:services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A1EC2D-6A55-434F-A054-DBC32DC902F3}|WattWise.csproj|c:\\users\\adub\\source\\repos\\personal\\wattwise\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A1EC2D-6A55-434F-A054-DBC32DC902F3}|WattWise.csproj|solutionrelative:services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A1EC2D-6A55-434F-A054-DBC32DC902F3}|WattWise.csproj|c:\\users\\adub\\source\\repos\\personal\\wattwise\\services\\smsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A1EC2D-6A55-434F-A054-DBC32DC902F3}|WattWise.csproj|solutionrelative:services\\smsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A1EC2D-6A55-434F-A054-DBC32DC902F3}|WattWise.csproj|c:\\users\\adub\\source\\repos\\personal\\wattwise\\services\\meterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A1EC2D-6A55-434F-A054-DBC32DC902F3}|WattWise.csproj|solutionrelative:services\\meterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A1EC2D-6A55-434F-A054-DBC32DC902F3}|WattWise.csproj|c:\\users\\adub\\source\\repos\\personal\\wattwise\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A1EC2D-6A55-434F-A054-DBC32DC902F3}|WattWise.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +47,99 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\adub\\source\\repos\\personal\\WattWise\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\adub\\source\\repos\\personal\\WattWise\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCIAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T11:06:49.578Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\adub\\source\\repos\\personal\\WattWise\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\adub\\source\\repos\\personal\\WattWise\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-07T15:37:40.67Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MetersController.cs",
+              "DocumentMoniker": "C:\\Users\\adub\\source\\repos\\personal\\WattWise\\Controllers\\MetersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MetersController.cs",
+              "ToolTip": "C:\\Users\\adub\\source\\repos\\personal\\WattWise\\Controllers\\MetersController.cs",
+              "RelativeToolTip": "Controllers\\MetersController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T15:37:01.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Meter.cs",
+              "DocumentMoniker": "C:\\Users\\adub\\source\\repos\\personal\\WattWise\\Models\\Meter.cs",
+              "RelativeDocumentMoniker": "Models\\Meter.cs",
+              "ToolTip": "C:\\Users\\adub\\source\\repos\\personal\\WattWise\\Models\\Meter.cs",
+              "RelativeToolTip": "Models\\Meter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T15:36:27.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\adub\\source\\repos\\personal\\WattWise\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\adub\\source\\repos\\personal\\WattWise\\Services\\AdminService.cs",
+              "RelativeToolTip": "Services\\AdminService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T15:34:13.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\adub\\source\\repos\\personal\\WattWise\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Services\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\adub\\source\\repos\\personal\\WattWise\\Services\\NotificationService.cs",
+              "RelativeToolTip": "Services\\NotificationService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T15:30:36.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MeterService.cs",
+              "DocumentMoniker": "C:\\Users\\adub\\source\\repos\\personal\\WattWise\\Services\\MeterService.cs",
+              "RelativeDocumentMoniker": "Services\\MeterService.cs",
+              "ToolTip": "C:\\Users\\adub\\source\\repos\\personal\\WattWise\\Services\\MeterService.cs",
+              "RelativeToolTip": "Services\\MeterService.cs",
+              "ViewState": "AgIAANsAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T18:38:11.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SmsService.cs",
+              "DocumentMoniker": "C:\\Users\\adub\\source\\repos\\personal\\WattWise\\Services\\SmsService.cs",
+              "RelativeDocumentMoniker": "Services\\SmsService.cs",
+              "ToolTip": "C:\\Users\\adub\\source\\repos\\personal\\WattWise\\Services\\SmsService.cs",
+              "RelativeToolTip": "Services\\SmsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T18:38:09.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\adub\\source\\repos\\personal\\WattWise\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\adub\\source\\repos\\personal\\WattWise\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T15:37:53.158Z"
             }
           ]
         }

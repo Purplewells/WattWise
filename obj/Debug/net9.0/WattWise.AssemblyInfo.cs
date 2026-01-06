@@ -12,10 +12,11 @@ using System;
 using System.Reflection;
 
 [assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-WattWise-e25fa1a8-b926-4a67-ab1e-948ebbfa9dc2")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("WattWise")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79a3b2873966e831ddbe181d2210bc2efd1637fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb51a16ece98a0b8c072cfbc357a68b2abeebb8c")]
 [assembly: System.Reflection.AssemblyProductAttribute("WattWise")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WattWise")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
